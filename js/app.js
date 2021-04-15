@@ -7,10 +7,10 @@ while (userChoice !== 'yes' && userChoice !== 'no'){
   userChoice = prompt('Do you love flower? yes / no ');
 }
 if(userChoice == 'yes'){
-  document.write("<h1>many thanks ^_^ </h1>");
+  document.write("<h1>very beautiful ^_^ </h1>");
 }
 else if(userChoice == 'no'){
-  document.write('<p> Why? >_< </p>');
+  document.write('<p> Why, i hope you cgange your mind? >_< </p>');
 }
 
 var namePic = prompt('please enter name of picture:(sunflower , camellia  , star )? ');
