@@ -36,7 +36,7 @@ for(var i=0; i<numPic; i++){
 var num1 =Number(prompt('please enter your Age: '));
  if(num1 >= 20 && num1 <=100)
  {
-   document.write('amazing your Age,' + num1 +' the whole lifetime *_* ' + "<br>");
+   document.write('<h5>amazing your Age,</h5> ' + num1 +' <h4>the whole lifetime *_* </h4>' + "<br>");
  }
  else if(num1 <20){
    document.write('<p>your Age less than 20 @_@</p>');
