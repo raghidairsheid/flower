@@ -8,12 +8,12 @@ while (userChoice !== 'yes' && userChoice !== 'no'){
 }
 if(userChoice == 'yes'){
   document.write("<h1>very beautiful ^_^ </h1>");
-<<<<<<< HEAD
+
   var namePic = prompt('please enter name of picture:(sunflower , camellia  , star )? ');
   var numPic = prompt('how many pictures do you want apper? ');
   var num1 =Number(prompt('please enter your Age: '));
-=======
->>>>>>> 91660979a3235e37cabe05699dd7fd9f8d3a9108
+
+
 }
 else if(userChoice == 'no'){
   document.write('<p> Why, i hope you cgange your mind? >_< </p>');
