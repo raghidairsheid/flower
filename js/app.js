@@ -16,7 +16,7 @@ var namePic = prompt('please enter name of picture:(sunflower , camellia  , star
 
 var numPic = prompt('how many pictures do you want apper? ');
 
-for(var i=0; i<=numPic; i++){
+for(var i=0; i<numPic; i++){
  
  if(namePic == 'sunflower')
     {
@@ -25,11 +25,11 @@ for(var i=0; i<=numPic; i++){
     }
     else if(namePic == 'camellia'){
         var image2 = '<img src="https://th.bing.com/th/id/OIP.9doxYfXROHvHnMEFOL3a6wHaE6?w=253&h=180&c=7&o=5&pid=1.7" alt="Camellia" /> ';
-        document.write(image2);
+        document.write("<br>" + image2+ "<br>");
     }
    
 }
- document.write('The count of loop: '+ i + "<br>");
+ document.write("<br>" + 'The count of loop: '+ i + "<br>");
  console.log(namePic);
 
 
