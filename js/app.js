@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 var userChoice = prompt('Do you love flower? yes / no ');
 console.log(userChoice);
@@ -45,6 +46,9 @@ var num1 =Number(prompt('please enter your Age: '));
 
 
 /* function myFunction() {
+=======
+function myFunction() {
+>>>>>>> 60931f263ede409948f31b10452cb65f09d3d275
   var flowerName = "Sapphire flower";
   document.write('this is my function :' + flowerName +"<br>");
   var image6 ='<img src="img/sapphire.jpg"/>' ;
@@ -98,4 +102,7 @@ else
 {
   document.write('<p>false</p>');
 }
+<<<<<<< HEAD
 */
+=======
+>>>>>>> 60931f263ede409948f31b10452cb65f09d3d275
