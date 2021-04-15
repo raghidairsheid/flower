@@ -7,15 +7,18 @@ while (userChoice !== 'yes' && userChoice !== 'no'){
   userChoice = prompt('Do you love flower? yes / no ');
 }
 if(userChoice == 'yes'){
-  document.write("<h1>many thanks ^_^ </h1>");
+  document.write("<h1>very beautiful ^_^ </h1>");
+  var namePic = prompt('please enter name of picture:(sunflower , camellia  , star )? ');
+  var numPic = prompt('how many pictures do you want apper? ');
+  var num1 =Number(prompt('please enter your Age: '));
 }
 else if(userChoice == 'no'){
-  document.write('<p> Why? >_< </p>');
+  document.write('<p> Why, i hope you cgange your mind? >_< </p>');
 }
 
-var namePic = prompt('please enter name of picture:(sunflower , camellia  , star )? ');
 
-var numPic = prompt('how many pictures do you want apper? ');
+
+
 
 for(var i=0; i<numPic; i++){
  
@@ -34,7 +37,7 @@ for(var i=0; i<numPic; i++){
  console.log(namePic);
 
 
-var num1 =Number(prompt('please enter your Age: '));
+
  if(num1 >= 20 && num1 <=100)
  {
    document.write('amazing your Age, ' + num1 +' the whole lifetime *_* ' + "<br>");
