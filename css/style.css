@@ -1,0 +1,44 @@
+
+nav ul li a{
+  text-decoration: none;
+  width:500px;
+  background-color: solid bisque;
+}
+
+nav ul li{
+  border:2px solid orange ;
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+}
+
+img{
+  width:200px;
+  border: 3px;
+ 
+}
+
+h1{
+  text-align: center;
+  color: gold;
+}
+P{
+  color: green;
+  //font-family:courier;
+  text-decoration: none;
+}
+a{
+  font-family:courier;
+  color: blue;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+} /*tr th{
+  border: 1px solid black;
+
+}
+table tr td{
+  border: 1px solid black;
+}*/
