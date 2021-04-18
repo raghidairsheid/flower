@@ -12,10 +12,10 @@ uch();
 function uch(){  
   if(userChoice == 'yes'){
       document.write("<h1>very beautiful ^_^ </h1>");
-      namePic = prompt('please enter name of picture:(sunflower , camellia  , star )? ');
+      namePic = prompt('please enter name of picture:(sunflower , camellia  , star )?');
       numPic = prompt('how many pictures do you want apper? ');
 
-      document.write('<p>This name of picture </p>' + "<br>");
+      document.write('This name of picture: ' + namePic + "<br>");
       nPic(namePic); 
       document.write('<p>************************************</p>');
       countfl(numPic);
@@ -57,7 +57,7 @@ var fun1 = function(){
 
 var b =fun1();
 console.log(b);
-
+/*
 var fun2 = function(flo){
   var c = prompt('like ' + flo);
   //console.log(flo);
@@ -65,7 +65,7 @@ var fun2 = function(flo){
 }
 var d = fun2('sunflower');
 console.log(d);
-
+*/
 
 
 /*

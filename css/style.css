@@ -3,6 +3,7 @@ nav ul li a{
   text-decoration: none;
   width:500px;
   background-color: solid bisque;
+  
 }
 
 nav ul li{
@@ -14,33 +15,55 @@ nav ul li{
 
 img{
   width:200px;
-  border: 3px;
- 
+  border: 3px solid yellowgreen;
+  padding: 50px 30px 10px 20px;
+  //border-color: yellowgreen;
+ margin: 20px; 
 }
 
 h1{
   text-align: center;
   color: gold;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-family: serif;
+  padding: 10px 50px 10px 20px;
 }
 P{
-  color: green;
-  //font-family:courier;
+  color: rgb(16, 22, 16);
   text-decoration: none;
+  //line-through;
+  margin: 100px 20px 50px 20px;
+  background-image: url("https://i.pinimg.com/736x/e3/8d/71/e38d7137e1f035c7809d99a36b7346f3.jpg");
+  font-family: cursive;
 }
 a{
-  font-family:courier;
+  font-family: courier;
   color: blue;
+  background-color: darkgrey; 
+  background-position: right bottom;
+  background-size: 100px 50px; 
+  display: block;
 }
-/*
+
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-style: double;
+ // border-collapse: collapse;
+  //border: 1px solid black;
 
-} */
+} 
+
+
 table tr th{
+  width: 100%;
   border: 1px solid black;
-
+  margin:0;
+  padding: 5px;
 }
 table tr td{
-  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse ;
+  border: 1px solid blueviolet;
+  
 }
