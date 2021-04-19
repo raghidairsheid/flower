@@ -2,7 +2,11 @@
 nav ul li a{
   text-decoration: none;
   width:500px;
-  background-color: solid bisque;
+  background-color: bisque; 
+  font-family: courier;
+  color: blue; 
+  background-position: right bottom;
+  background-size: 100px 100px; 
   
 }
 
@@ -32,38 +36,50 @@ h1{
 P{
   color: rgb(16, 22, 16);
   text-decoration: none;
-  //line-through;
   margin: 100px 20px 50px 20px;
   background-image: url("https://i.pinimg.com/736x/e3/8d/71/e38d7137e1f035c7809d99a36b7346f3.jpg");
   font-family: cursive;
 }
+/*
 a{
   font-family: courier;
   color: blue;
   background-color: darkgrey; 
   background-position: right bottom;
-  background-size: 100px 50px; 
-  display: block;
+  background-size: 100px 100px; 
+  display: inline-block;
 }
-
+*/
 table {
   width: 100%;
   border-style: double;
  // border-collapse: collapse;
   //border: 1px solid black;
-
+font-family: cursive;
 } 
 
 
 table tr th{
-  width: 100%;
+  width: 10%;
   border: 1px solid black;
   margin:0;
   padding: 5px;
+  font-family: cursive;
 }
 table tr td{
-  width: 100%;
+  width: 10%;
   border-collapse: collapse ;
   border: 1px solid blueviolet;
-  
+  font-family: cursive;
+}
+#part1 {
+  text-align: center;
+  color: darkmagenta;
+}
+.part2 {
+   margin: 100px 20px 50px 20px;
+   padding: 10px 10px 10px 10px;
+}
+.part3{
+ background-color: papayawhip;
 }
